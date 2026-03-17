@@ -1,0 +1,15 @@
+[project]
+name = "wholistic-preprocessing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "preprocess-videos",
+    "zarr",
+    "zarrs"
+]
+
+[tool.uv.sources]
+preprocess-videos = { git = "ssh://git@github.com/flavell-lab/private_preprocess_videos/", branch = "lauren_wholistics" }
