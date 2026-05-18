@@ -12,7 +12,7 @@ def main(
     # Configure multithreading
     setup_threading(threads)
 
-    data_path = Path("/store1/lauren/Tetramisole_Immobilized_Imaging/2026_PinkyCamp_Immobilized/data_raw/2026-02-26-06.nd2")
+    data_path = Path("/store1/lauren/Tetramisole_Immobilized_Imaging/SWF1492_pdfr1_blac/2026-03-04-05.nd2")
 
     recording = NeuralRecording(
         data_path,
