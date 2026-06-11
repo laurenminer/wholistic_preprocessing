@@ -10,7 +10,7 @@ threads = 16
 setup_threading(threads)
 
 data_dir = Path(
-    "/store1/lauren/Tetramisole_Immobilized_Imaging/2026_cAMP_wholebrain_with_pdfr1_BlaC_Immobilized/ImagedImmediately"
+    "/store1/lauren/Live_Imaging/cAMP_wholebrain_with_pdfr1_BlaC/NoFood/data_raw"
 )
 output_dir = data_dir / "pre-processed"
 output_dir.mkdir(exist_ok=True)
